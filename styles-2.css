@@ -1,0 +1,99 @@
+.menu ul li{
+    font-size: 21px;
+    margin-right: 13px;
+    display: inline;
+}
+.menu{
+    text-align: center;
+    background-color: #949e6c;
+    border-radius: 15px;
+    padding: 10px;
+    margin-left: 19%;
+    margin-right: 19%;
+}
+.menu ul li:hover{
+    background-color: #b8b7b7;
+    border-radius: 5px;
+    padding: 5px;
+}
+.menu ul li a{
+    text-decoration: none;
+    color: black;
+}
+.menu ul li a:hover{
+    cursor: pointer;
+    transform: scale(1.7);
+    transition: all 0.4s ease;
+}
+.title-tracklist{
+    text-align: center;
+    margin: 15px;
+}
+.title-tracklist h1{
+    font-size: 60px;
+    color: darkred;
+    font-family: 'Lora', serif;
+    margin-top: 20px;
+}
+.title-tracklist p{
+    font-size: 15px;
+    font-family: 'Merriweather', serif;
+    margin-top: 10px;
+}
+.musicas a{
+    text-decoration: none;
+    color: black;
+}
+.track{
+    background-color: rgba(128, 128, 128, 0.897);
+    display: inline-block;
+    margin-left: 15%;
+    padding: 10px;
+    width: 73%;
+    border-radius: 20px;
+    margin-bottom: 4px;
+}
+.track:hover{
+    background-color: rgba(128, 128, 128, 0.733);
+    cursor: pointer;
+    transform: scale(1.05);
+    transition: all 1 ease;
+}
+.nome-subtitulo{
+    display: inline-block;
+}
+.track p{
+    font-size: 18px;
+    font-family: 'Lora', serif;
+    float: left;
+    color: white;
+    margin-top: 20px;
+    margin-left: 19px;
+    margin-bottom: 0px;
+}
+.subtitulo-track {
+    font-size: 16px;
+    font-family: 'Lora', serif;
+    color: white;
+    margin-top: 0px;
+    margin-left: 19px;
+}
+.capa-tracklist{
+    float: left;
+    width: 8%;
+    height: 8%;
+    border-radius: 8px;
+}
+.icons-right, .icons-right1{
+    float: right;
+    width: 5%;
+    height: 2%;
+}
+.icons-right{
+    height: 2%;
+    width: 4%;
+    margin-top: 21px;
+}
+.icons-right1{
+    margin-top: 20px;
+}

@@ -1,0 +1,124 @@
+.menu ul li{
+    font-size: 21px;
+    margin-right: 13px;
+    display: inline;
+}
+.menu{
+    text-align: center;
+    background-color: #949e6c;
+    border-radius: 15px;
+    padding: 10px;
+    margin-left: 19%;
+    margin-right: 19%;
+}
+.menu ul li:hover{
+    background-color: #b8b7b7;
+    border-radius: 5px;
+    padding: 5px;
+}
+.menu ul li a{
+    text-decoration: none;
+    color: black;
+}
+.menu ul li a:hover{
+    cursor: pointer;
+    transform: scale(1.7);
+    transition: all 0.4s ease;
+}
+.title-track h2{
+    text-align: left;
+    margin-left: 50px;
+    margin-top: 50px;
+    color: darkred;
+    font-size: 70px;
+    margin-bottom: 0px;
+    font-family: 'Lora', serif;
+}
+.play-music{
+    float: right;
+    margin-right: 20px;
+    border-radius: 5px;
+    margin-top: 0px;
+}
+.divisao-track{
+    border: black;
+    display: flex;
+    justify-content: flex-start;
+    height: 5px;
+    width: 700px;
+    margin-left: 50px;
+    background-color: black;
+}
+.info h3{
+    margin-top: 5px;
+    text-align: left;
+    margin-left: 50px;
+    font-size: 16px;
+    color: black;
+    font-weight: 600;
+}
+.review h2{
+    text-align: left;
+    margin-top: 25px;
+    font-size: 40px;
+    color: darkred;
+    margin-left: 50px;
+}
+.review p{
+    text-align: justify;
+    margin-left: 50px;
+    margin-top: 15px;
+    font-weight: normal;
+    margin-right: 50px;
+    font-size: 17px;
+    line-height: 24px;
+    font-family: 'Noto Serif', serif;
+}
+#h2-letra-traducao{
+    text-align: center;
+    margin-top: 25px;
+    font-size: 32px;
+    color: darkred;
+}
+.letra-traducao {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  gap: 0px 0px;
+  grid-auto-flow: row;
+  grid-template-areas:
+    "letra letra traducao traducao"
+    "letra letra traducao traducao"
+    "letra letra traducao traducao";
+}
+.letra{
+    grid-area: letra;
+    text-align: right;
+}
+.traducao{
+    grid-area: traducao;
+    text-align: left;
+}
+.letra, .traducao{
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: 28px;
+}
+.divisao-img{
+    margin-top: 20px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto; 
+    border-radius: 5px;
+}
+.video-h2{
+    margin-top: 30px;
+    text-align: left;
+    margin-left: 50px;
+    color: darkred;
+    font-size: 35px;
+}
+.img-video{
+    margin-top: 20px;
+    margin-left: 50px;
+}

@@ -1,0 +1,8 @@
+#last-link{
+    animation-name: lastlink;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+@keyframes lastlink{
+    0% {margin-left: 0%; background-color: rgb(173, 157, 157);}
+}
